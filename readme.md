@@ -2,6 +2,8 @@
 
 This is a boilerplate to start with [Pusher](https://pusher.com/) & [Laravel](https://laravel.com/). Please see the [docs](https://docs.beyondco.de/laravel-websockets/) to understand how it works out of the box.
 
+<img src="./gif.gif">
+
 ## Setup
 
 Install packages:
