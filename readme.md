@@ -78,6 +78,10 @@ $ npm run watch
 
 Done! Now you are ready to run the application by navigating to http://127.0.0.1:8000.
 
+> Extra: As you can see, [laravel-websockets](https://docs.beyondco.de/laravel-websockets/) gives you a nice way to monitor your WebSocket server statistics by navigating to http://127.0.0.1:8000/laravel-websockets.
+>
+> Please see [AuthServiceProvider](https://github.com/sayhicoelho/laravel-websockets/blob/master/app/Providers/AuthServiceProvider.php) to understand how to prevent unauthorized users to see the dashboard.
+
 ## License
 
 MIT
