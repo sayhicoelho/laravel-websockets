@@ -38,6 +38,16 @@ QUEUE_CONNECTION=redis
 SESSION_DRIVER=redis
 ```
 
+## Pusher Key
+
+You don't need a key from [Pusher webservice](https://pusher.com/channels/pricing). Just generate your own.
+
+```conf
+PUSHER_APP_ID=<YOUR_APP_ID>
+PUSHER_APP_KEY=<YOUR_APP_KEY>
+PUSHER_APP_SECRET=<YOUR_APP_SECRET>
+```
+
 ## Starting the WebSocket server
 
 Once you have configured your WebSocket apps and Pusher settings, you can start the Laravel WebSocket server by issuing the artisan commands:
